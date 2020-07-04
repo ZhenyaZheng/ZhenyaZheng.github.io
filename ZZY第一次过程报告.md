@@ -431,7 +431,7 @@ for循环的语法分析设计遇到阻碍，由于我们的设计是一遍语�
 
 将for循环设计和实现，下图为我们设计的for循环的四元式：
 
-![https://raw.githubusercontent.com/The-2020-Compiler-Project/NiShuoDeDui/scan_machine/for.jpg?token=APVF7H2AAMUKYZWBMPVQI5K677JCY]()
+https://raw.githubusercontent.com/The-2020-Compiler-Project/NiShuoDeDui/scan_machine/for.jpg?token=APVF7H6YUWXG3QUDWOSAA3S677OOW
 
 ​	其中比较难实现的是 i++ 的那部分因为词法分析器是从文件里逐词扫描，所以 i++ 这部分就一定在前面先被扫描，那么在执行完复合语句之后怎么回去执行 i++ 呢？面对这个问题我思考了好久，最终想到了一种解决的办法，定义一个类型为token节点指针的vector，在扫描到 i++ 部分时，将指针依次压入向量，再执行完复合语句之后再将指针依次取出。（注：i++ 为代指，也可以为 i=i+1 ）。
 
