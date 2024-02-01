@@ -17,18 +17,18 @@ Name2 Name2:
   twitter     : "name2"
   google_plus : "Name"
 
-Ze Jiang:
-  name             : "Ze Jiang"
-  avatar           : "profile.png"
-  bio              : "Ph.D. Candidate @UNSW, expert in statistical hydrology"
-  location         : "Sydney, Australia"
+Zheng Zhenya:
+  name             : "Zheng Zhenya"
+  avatar           : "profile.jpg"
+  bio              : "Master in @SCUT"
+  location         : "Guangzhou, China"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
+      url: "202220145182@mail.scut.edu.cn"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
+      url: ""
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      url: "https://twitter.com/"
